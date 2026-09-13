@@ -1,0 +1,14 @@
+match:
+  min-players: 1
+  hunter-count: 4
+  auto-fill-bots: false
+  match-time-seconds: 1200
+
+monster:
+  starting-stage: 1
+  evolution-needed:
+    stage-2: 100
+    stage-3: 250
+
+ui:
+  sidebar: true

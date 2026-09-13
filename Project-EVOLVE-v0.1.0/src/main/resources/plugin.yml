@@ -1,0 +1,13 @@
+name: ProjectEVOLVE
+version: 0.1.0
+main: jp.evolvegame.core.ProjectEvolvePlugin
+api-version: '1.21'
+author: ProjectEVOLVE
+commands:
+  evolve:
+    description: Project EVOLVE main command
+    usage: /evolve <join|leave|start|status|setmonster|setevolution>
+    aliases: [ev]
+permissions:
+  evolve.admin:
+    default: op
